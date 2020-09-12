@@ -2,14 +2,14 @@
 /* Only if using bluelynx logo or similar with same width */
 .app-logo {
    width: 90px !important;
-   content:url("/assets/bluetheme/images/totrox-name_rev.png") !important;
+   content:url("https://aakvatech.com/wp-content/uploads/2020/06/logo-white-1.png") !important;
 }
 .navbar-default {
-    background-color: #752a94;
-    border-color: #752a94;}
+    background-color: #404E7C;
+    border-color: #404E7C;}
 #navbar-search {
-    background-color: #561074;
-    border: 1px solid #561074;
+    background-color: #022F40;
+    border: 1px solid #022F40;
     color: #ffffff;
     height: 35px;}
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
@@ -18,16 +18,16 @@
 	color: #cccccc;}
 .navbar-form .awesomplete {width: 350px;}
 .navbar {min-height: 46px;}
-.navbar-light{background-color: #752a94 !important;}
+.navbar-light{background-color: #404E7C !important;}
 .navbar-light .navbar-nav .nav-link{color: #ffffff;}
 .navbar-light .navbar-nav .nav-link:hover{color:#c7c7c7}
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{color: #ffffff;}
 .navbar .navbar-search-icon {color: #ffffff;}
 .footer-powered{font-size:90% !important}
 .form-footer, .form-footer a, .form-footer h6{font-size:14px;font-weight:normal}
-a:hover, a:focus {color: #7a008a;}
-a.text-primary:hover {color: #7a008a}
-.text-primary {color: #7a008a}
+a:hover, a:focus {color: #D58936;}
+a.text-primary:hover {color: #D58936}
+.text-primary {color: #D58936}
 body {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	background-color: #f8f8f8;}
@@ -35,9 +35,31 @@ small, .small {
     font-size: 100%;}
 .like-disabled-input {
    background-color:#ececec;
+   box-shadow: 0px 3px 3px -1px #aaa7b8;
+   transition: 0.75s;
+}
+.form-control::placeholder {
+   color: darkgrey;
+}
+.grid-row {
+   border-bottom-color: darkslategrey;
+   transition: 0.75s;
+}
+.datepicker--buttons {
+   padding: 24px;
+}
+.navbar-form::placeholder {
+   color: lightgrey;
 }
 .input-with-feedback.form-control.bold{
    background-color:#e9f4fd;
+   box-shadow: 0px 7px 7px -5px #ba2231;
+   transition: 0.75s;
+}
+.input-with-feedback.form-control{
+   background-color:#e9f4fd;
+   box-shadow: 0px 5px 5px -3px #5795d0;
+   transition: 0.75s;
 }
 .reply.timeline-content-show{
    background-color:#e9f4fd !important;
@@ -46,16 +68,15 @@ small, .small {
    background-color:#f8f8f8;
 }
 .level.list-row.small{
-   background-color:#ffffff;
+   background-color: #ffffff;
 }
 .grid-heading-row{
    background-color:#e9f4fd;
 }
-
 .section-box {
 	border: 1px solid #eaeaea;
 	border-radius:0px !important;
-	background-color:#ffffff;}
+	background-color: #ffffff;}
 .section-box h4 {
 	color:#3864a7}
 a {
@@ -78,11 +99,11 @@ h6.uppercase, .h6.uppercase {
     font-weight: 500;
     letter-spacing: 0px;}
 .btn-primary {
-    background-color: #752a94;
-    border-color: #561074;}
+    background-color: #404E7C;
+    border-color: #022F40;}
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-     background-color: #561074;
-     border-color: #561074;}
+     background-color: #022F40;
+     border-color: #022F40;}
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
 	background-color: #274b82;
 	border-color: #274b82; }
